@@ -29,14 +29,14 @@ document.getElementById("MORE").style.display="flex";
         <i class="fa-solid fa-phone"></i>
         +++++1234567890
         </button>
-        <button className='w-[45%] phone:w-[45%] phone:text-sm gap-1 phone:h-[50px]   h-[50px] rounded-xl  bg-white font-bold flex items-center justify-center text-black ' >
+        <button className=' hidden phone:w-[45%] phone:text-sm gap-1 phone:h-[50px]   h-[50px] rounded-xl  bg-white font-bold phone:flex phone:items-center phone:justify-center phone: text-black ' >
         <i class="fa-solid fa-phone"></i>
         Call Now
         </button>
-        <i onClick={Open} className="fa-solid fa-bars text-gray-600 text-3xl "></i>
+        <i onClick={Open} className="fa-solid fa-bars text-gray-600 text-3xl hidden phone:flex "></i>
     </div>
 </div>
-<div id='MORE' className="phone:w-full  phone:h-[100px] phone:hidden phone:flex-col bg-black phone:relative  ">
+<div id='MORE' className=" hidden phone:w-full  phone:h-[100px] phone:hidden phone:flex-col bg-black phone:relative  ">
 <a href="https://www.urbanvault.in/blogs/index.html"><span className='Color  text-xl font-bold text-white'>Blogs</span></a>
 
 <a href="https://www.urbanvault.in/spaces.html"><span className='Color  text-xl font-bold text-white'>Spaces</span></a>
