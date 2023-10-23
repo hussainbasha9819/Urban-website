@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+}
+.Color:hover{
+    border-bottom: 2px  solid red ;
+} 
+.Span{
+    background: linear-gradient(90deg,#27a1d8, #ff2928 50%, #fdf435);
+}
+.BTN:hover{
+    background: linear-gradient(90deg,#27a1d8, #ff2928 50%, #fdf435);
+scale: 1.1;
+}
+
