@@ -9,6 +9,7 @@
     border-bottom: 2px  solid red ;
 } 
 .Span{
+    border-radius: 10px;
     background: linear-gradient(90deg,#27a1d8, #ff2928 50%, #fdf435);
 }
 .BTN:hover{

@@ -3,8 +3,8 @@ import React from 'react'
 const Main = () => {
   return (
     <div className="w-full phone:flex phone:w-full phone:h-[82vh] phone:relative  h-screen relative  bg-black flex justify-end ">
-        <img className='w-[90%] h-screen phone:w-[95%] phone:h-[40vh] ' src="https://www.urbanvault.in/images/Hero-Image-min.png" alt="" />
-        <div className="w-[45%] phone:w-[90%] phone:h-[40vh] phone:flex phone:flex-col phone:top-[50%] phone:pl-5 phone:gap-0 h-[60vh] pl-10 rounded-r-full flex flex-col top-[40%] gap-[2px] left-0 items-start justify-center absolute bg-white  ">
+        <img className='w-[90%] h-screen phone:w-[95%]  phone:h-[40vh] ' src="https://www.urbanvault.in/images/Hero-Image-min.png" alt="" />
+        <div className="w-[45%] phone:w-[90%] phone:border-[1px] phone:border-teal-200 phone:h-[40vh] phone:flex phone:flex-col phone:top-[50%] phone:pl-5 phone:gap-0 h-[60vh] pl-10 rounded-r-full flex flex-col top-[40%] gap-[2px] left-0 items-start justify-center absolute bg-white  ">
 <h1 className='text-5xl phone:text-3xl font-bold '>Your spaces</h1>
 <h1 className='text-5xl phone:text-3xl font-bold '>On your terms</h1>
 <p className='text-2xl phone:text-lg text-gray-500 '>We build hyper personalized</p>

@@ -33,7 +33,7 @@ document.getElementById("MORE").style.display="flex";
         <i class="fa-solid fa-phone"></i>
         Call Now
         </button>
-        <i onClick={Open} className="fa-solid fa-bars text-gray-600 text-3xl hidden phone:flex "></i>
+        <i onClick={Open} className="fa-solid fa-bars text-gray-400 text-3xl hidden phone:flex "></i>
     </div>
 </div>
 <div id='MORE' className=" hidden phone:w-full  phone:h-[100px] phone:hidden phone:flex-col bg-black phone:relative  ">
