@@ -3,7 +3,7 @@ import React from 'react'
 const Main4 = () => {
   return (
 <>
-<div className="w-full phone:flex phone:w-full  phone:h-[75vh] phone:flex-col-reverse phone:items-center phone:justify-start h-screen bg-black   flex items-center justify-center ">
+<div className="w-full phone:flex phone:w-full  phone:h-[75vh] phone:flex-col-reverse phone:items-end phone:justify-start h-screen bg-black   flex items-center justify-center ">
 
     <div className="w-[40%] phone:w-[80%]    phone:h-[35vh] phone:flex phone:flex-col phone:pt-1 phone:pl-2 phone:gap-0 phone:items-start phone:justify-start  h-[90vh] flex flex-col items-start  justify-center pl-10  gap-2 ">
 <span className='Span w-[30%] h-[6px] '></span>
