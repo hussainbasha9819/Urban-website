@@ -49,30 +49,30 @@ document.getElementById("three").style.backgroundColor="white"
 <h1 className='text-white phone:text-[14px] text-3xl font-medium '>Very flexible with growing team size."</h1>
 </div>
 <div className="w-full h-[25vh] phone:w-full phone:h-[50vh] phone:flex phone:flex-col phone:items-center phone:justify-evenly gap-[2px] flex items-center justify-center ">
-    <div id='one' onClick={First} className="w-[25%] phone:w-[60%] phone:h-[15vh] phone:flex cursor-pointer h-[20vh] flex bg-gray-500  ">
+    <div id='one' onClick={First} className="w-[25%] phone:w-[60%] phone:rounded-lg phone:h-[15vh] phone:flex cursor-pointer h-[20vh] flex bg-gray-500  ">
         <span className='w-[40%] phone:w-[40%] phone:h-[15vh] phone:flex phone:items-center phone:justify-center  h-[20vh] flex items-center justify-center  '>
-            <span className='Span w-[70px] phone:w-[50px] phone:h-[50px] h-[70px] rounded-full flex items-center justify-center text-white font-bold text-3xl '>A</span>
+            <span className='Span w-[70px] phone:w-[50px] phone:h-[50px] phone:rounded-full h-[70px] rounded-full flex items-center justify-center text-white font-bold text-3xl '>A</span>
         </span>
         <span className='w-[60%] phone:w-[40%] phone:h-[15vh] phone:flex phone:flex-col phone:items-center phone:justify-center h-[20vh] flex flex-col justify-center '>
-            <h1 className='text-2xl  text-white '>Arpit</h1>
+            <h1 className='text-2xl  text-black font-medium '>Arpit</h1>
             <h1 className='text-2xl  text-gray-300 '>Loktra</h1>
         </span>
     </div>
-    <div  id='two' onClick={second} className="w-[25%] phone:w-[60%] phone:h-[15vh] phone:flex cursor-pointer h-[20vh] flex bg-gray-500  ">
+    <div  id='two' onClick={second} className="w-[25%] phone:w-[60%] phone:rounded-lg phone:h-[15vh] phone:flex cursor-pointer h-[20vh] flex bg-gray-500  ">
         <span className='w-[40%] phone:w-[40%] phone:h-[15vh] phone:flex phone:items-center phone:justify-center h-[20vh] flex items-center justify-center  '>
-            <span className='Span w-[70px] phone:w-[50px] phone:h-[50px] h-[70px] rounded-full flex items-center justify-center text-white font-bold text-2xl '>S</span>
+            <span className='Span w-[70px] phone:w-[50px] phone:h-[50px] phone:rounded-full h-[70px] rounded-full flex items-center justify-center text-white font-bold text-2xl '>S</span>
         </span>
         <span className='w-[60%] phone:w-[40%] phone:h-[15vh] phone:flex phone:flex-col phone:items-center phone:justify-center h-[20vh] flex flex-col justify-center '>
-            <h1 className='text-2xl  text-white '>Smruti</h1>
+            <h1 className='text-2xl   text-black font-medium '>Smruti</h1>
             <h1 className='text-2xl  text-gray-300 '>NestAway</h1>
         </span>
     </div>
-    <div id='three' onClick={thred} className="w-[25%] phone:w-[60%] phone:h-[15vh] phone:flex cursor-pointer h-[20vh] flex bg-gray-500  ">
+    <div id='three' onClick={thred} className="w-[25%] phone:w-[60%] phone:rounded-lg phone:h-[15vh] phone:flex cursor-pointer h-[20vh] flex bg-gray-500  ">
         <span className='w-[40%] phone:w-[40%] phone:h-[15vh] phone:flex phone:items-center phone:justify-center h-[20vh] flex items-center justify-center  '>
-            <span className='Span w-[70px] phone:w-[50px] phone:h-[50px] h-[70px] rounded-full flex items-center justify-center text-white font-bold text-2xl '>C</span>
+            <span className='Span w-[70px] phone:w-[50px] phone:h-[50px] phone:rounded-full h-[70px] rounded-full flex items-center justify-center text-white font-bold text-2xl '>C</span>
         </span>
         <span className='w-[60%] phone:w-[40%] phone:h-[15vh] phone:flex phone:flex-col phone:items-center phone:justify-center h-[20vh] flex flex-col justify-center '>
-            <h1 className='text-2xl  text-white '>Chandralika</h1>
+            <h1 className='text-[23px]  text-black font-medium '>Chandralika</h1>
             <h1 className='text-2xl  text-gray-300 '>BigThink</h1>
         </span>
     </div>
