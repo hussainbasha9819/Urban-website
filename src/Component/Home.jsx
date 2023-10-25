@@ -36,7 +36,7 @@ document.getElementById("MORE").style.display="flex";
         <i onClick={Open} className="fa-solid fa-bars text-gray-400 text-3xl hidden phone:flex "></i>
     </div>
 </div>
-<div id='MORE' className=" hidden phone:w-full  phone:h-[100px] phone:hidden phone:flex-col bg-black phone:relative  ">
+<div id='MORE' className=" hidden phone:w-full pl-5   phone:h-[100px] phone:hidden phone:flex-col bg-black phone:relative  ">
 <a href="https://www.urbanvault.in/blogs/index.html"><span className='Color  text-xl font-bold text-white'>Blogs</span></a>
 
 <a href="https://www.urbanvault.in/spaces.html"><span className='Color  text-xl font-bold text-white'>Spaces</span></a>
